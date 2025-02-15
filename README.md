@@ -1,6 +1,13 @@
-# Tauri + React + Typescript
+# Whaturi
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Whaturi is a whatsapp web client built with [Tauri](https://v2.tauri.app/).
+
+## TODO
+
+- [ ] System tray
+- [ ] Notifications
+- [ ] Performance
+- [ ] Auto Startup
 
 ## Recommended IDE Setup
 
@@ -8,4 +15,4 @@ This template should help get you started developing with Tauri, React and Types
 
 ## Icon
 
-<a target="_blank" href="https://icons8.com/icon/42961/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/42961/whatsapp">WhatsApp</a>
