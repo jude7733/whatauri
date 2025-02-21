@@ -1,10 +1,11 @@
 import { useEffect } from "react";
 import { WebviewWindow } from "@tauri-apps/api/webviewWindow";
 import { getCurrentWindow } from "@tauri-apps/api/window";
-
+import { TrayIcon } from "@tauri-apps/api/tray";
 function App() {
   useEffect(() => {
     openWebsite();
+    openTray();
   }, []);
 
   async function openWebsite() {
@@ -21,6 +22,14 @@ function App() {
     });
     webview.once("tauri://error", function (e) {
       console.error(e);
+    });
+  }
+
+  async function openTray() {
+    await TrayIcon.new({
+      tooltip: "Whatauri",
+      icon: "/tray.png",
+      menu: undefined,
     });
   }
 
