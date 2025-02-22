@@ -1,17 +1,24 @@
 # Whaturi
 
-Whaturi is a whatsapp web client built with [Tauri](https://v2.tauri.app/).
+Whaturi is a whatsapp webview client built with [Tauri](https://v2.tauri.app/).
 
 ## TODO
 
 - [ ] System tray
-- [ ] Notifications
 - [ ] Performance
 - [ ] Auto Startup
 
-## Recommended IDE Setup
+## Installation
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+### Arch Linux
+
+```bash
+yay -S whaturi-git
+```
+
+### Debian / Fedora
+
+Download and install builds from [releases](https://github.com/jude7733/whatauri/releases) page.
 
 ## Icon
 
